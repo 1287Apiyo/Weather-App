@@ -7,6 +7,7 @@ public class AppLauncher {
             public void run() {
                 //display our weather app
                 new WeatherAppGui().setVisible(true);
+                System.out.println(WeatherApp.getCurrentTime());
             }
         });
     }
